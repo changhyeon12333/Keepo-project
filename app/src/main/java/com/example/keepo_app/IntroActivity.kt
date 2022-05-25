@@ -28,7 +28,7 @@ class introlActivity : AppCompatActivity() {
         handler.postDelayed( {
             var intent = Intent( this, MainActivity::class.java)
             startActivity(intent)
-        }, 5000)
+        }, 2000)
     }
 
     override fun onPause() {
