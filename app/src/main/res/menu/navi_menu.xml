@@ -2,10 +2,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
         <item android:id="@+id/account"
-            android:title="계좌"/>
+            android:title="account"/>
         <item android:id="@+id/alarm"
-            android:title="알람"/>
+            android:title="alarm"/>
         <item android:id="@+id/data"
-            android:title="정보"/>
+            android:title="info"/>
     </group>
 </menu>
