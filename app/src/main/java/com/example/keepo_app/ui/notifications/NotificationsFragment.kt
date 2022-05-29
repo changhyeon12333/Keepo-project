@@ -8,6 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.keepo_app.databinding.FragmentNotificationsBinding
+import com.github.mikephil.charting.data.PieEntry
 
 class NotificationsFragment : Fragment() {
 
@@ -28,12 +29,9 @@ class NotificationsFragment : Fragment() {
         _binding = FragmentNotificationsBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textNotifications
-        notificationsViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
-        }
         return root
     }
+
 
     override fun onDestroyView() {
         super.onDestroyView()
