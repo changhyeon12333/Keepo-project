@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "536563931796",
+    "project_id": "keepo-pj",
+    "storage_bucket": "keepo-pj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536563931796:android:3b878587e276ba60e1f281",
+        "android_client_info": {
+          "package_name": "cbnu.com.keepo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "536563931796-s02f23eictdjlm79ftn93lv67eqd1q45.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu6S0W-6M3_hR0wzwidsH6WTsPxhlZF1A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "536563931796-s02f23eictdjlm79ftn93lv67eqd1q45.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536563931796:android:67c28d48a2e0d2c9e1f281",
+        "android_client_info": {
+          "package_name": "com.example.keepo_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "536563931796-s02f23eictdjlm79ftn93lv67eqd1q45.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu6S0W-6M3_hR0wzwidsH6WTsPxhlZF1A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "536563931796-s02f23eictdjlm79ftn93lv67eqd1q45.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
