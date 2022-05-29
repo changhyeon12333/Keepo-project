@@ -9,6 +9,7 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import com.example.keepo_app.AlarmActivity
 import com.example.keepo_app.DashboardActivity
 import com.example.keepo_app.MainActivity
 import com.example.keepo_app.R
@@ -39,6 +40,7 @@ class DashboardFragment : Fragment() {
 
         sButton.setOnClickListener(object :View.OnClickListener {
             override fun onClick(v: View?) {
+                //여기
                 val intent = Intent(context, DashboardActivity::class.java)
                 startActivity(intent)
                 // 다른 액티비티에서 전환할 때
