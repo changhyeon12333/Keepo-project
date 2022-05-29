@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.195" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/botton_start"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:text="start"
