@@ -47,6 +47,17 @@ class DashboardFragment : Fragment() {
                 // activity?.finish()
             }
         })
+        val alarmButton = view.findViewById<Button>(R.id.alarm_button)
+
+        alarmButton.setOnClickListener(object :View.OnClickListener {
+            override fun onClick(v: View?) {
+                //여기
+                val intent = Intent(context, AlarmActivity::class.java)
+                startActivity(intent)
+                // 다른 액티비티에서 전환할 때
+                // activity?.finish()
+            }
+        })
         val textView: TextView = binding.textDashboard
         dashboardViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
