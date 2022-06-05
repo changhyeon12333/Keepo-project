@@ -36,9 +36,9 @@ class DashboardFragment : Fragment() {
         val root: View = binding.root
 
         val view = inflater.inflate(R.layout.fragment_dashboard, null)
-        val sButton = view.findViewById<Button>(R.id.botton_start)
+  //      val sButton = view.findViewById<Button>(R.id.botton_start)
 
-        sButton.setOnClickListener(object :View.OnClickListener {
+  /*      sButton.setOnClickListener(object :View.OnClickListener {
             override fun onClick(v: View?) {
                 //여기
                 val intent = Intent(context, DashboardActivity::class.java)
@@ -46,7 +46,7 @@ class DashboardFragment : Fragment() {
                 // 다른 액티비티에서 전환할 때
                 // activity?.finish()
             }
-        })
+        })*/
         val alarmButton = view.findViewById<Button>(R.id.alarm_button)
 
         alarmButton.setOnClickListener(object :View.OnClickListener {

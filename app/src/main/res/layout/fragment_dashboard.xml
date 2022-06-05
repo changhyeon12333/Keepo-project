@@ -13,24 +13,13 @@
         android:layout_marginTop="68dp"
         android:text="자세 측정을 시작하려면 START를 누르세요"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.195" />
 
-    <Button
-        android:id="@+id/botton_start"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:text="start"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.263"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.743" />
+
 
     <ImageView
         android:id="@+id/imageView2"
@@ -49,12 +38,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="143dp"
-        android:text="alarm"
+        android:text="start"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/botton_start"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.74" />
+        app:layout_constraintVertical_bias="0.732" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
