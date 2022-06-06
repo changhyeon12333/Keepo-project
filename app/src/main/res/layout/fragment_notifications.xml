@@ -14,6 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
         android:text="show"
+        android:fontFamily="@font/nanumextra"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />

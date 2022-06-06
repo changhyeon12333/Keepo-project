@@ -17,12 +17,14 @@
         android:layout_marginTop="71dp"
         android:layout_marginEnd="3dp"
         android:gravity="center"
-        android:text="alarm"
+        android:fontFamily="@font/nanumsquare"
+        android:text="스트레칭 시간을 설정해주세요"
         android:textColor="@color/black"
-        android:textSize="30sp"></TextView>
+        android:textSize="25sp"></TextView>
 
     <Button
         android:id="@+id/time_btn"
+        android:fontFamily="@font/nanumextra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -31,8 +33,10 @@
         android:layout_marginBottom="100dp"
         android:text="on"></Button>
 
+
     <Button
         android:id="@+id/alarm_cancel_btn"
+        android:fontFamily="@font/nanumextra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
