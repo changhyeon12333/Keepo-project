@@ -11,3 +11,5 @@ class DashboardActivity : AppCompatActivity() {
         actionBar!!.hide()
     }
 }
+
+
