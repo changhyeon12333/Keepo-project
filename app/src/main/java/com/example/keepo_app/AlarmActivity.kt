@@ -10,6 +10,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.util.Log
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.TextView
 import android.widget.TimePicker
 import androidx.appcompat.app.AppCompatActivity
@@ -25,6 +26,19 @@ class AlarmActivity : AppCompatActivity(), OnTimeSetListener {
         setContentView(R.layout.activity_alarm)
         time_text = findViewById(R.id.time_text)
         val time_btn = findViewById<Button>(R.id.time_btn)
+        val ch_img = findViewById<ImageView>(R.id.change_img)
+        var i = 0
+        ch_img.setOnClickListener{
+            i = i+1
+            if (i%4 == 1)
+                ch_img.setImageResource(R.drawable.good)
+            if (i%4 == 2)
+                ch_img.setImageResource(R.drawable.leftleg)
+            if (i%4 == 3)
+                ch_img.setImageResource(R.drawable.rightleg)
+            if (i%4 == 0)
+                ch_img.setImageResource(R.drawable.forward)
+        }
 
         //시간 설정
         time_btn.setOnClickListener {
