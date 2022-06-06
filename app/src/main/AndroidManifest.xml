@@ -14,9 +14,7 @@
         android:theme="@style/Theme.Keepo_app"
         tools:targetApi="31" >
         <activity android:name=".PieChartActivity"/>
-        <activity
-            android:name=".SigninActivity"
-            android:exported="false" />
+
         <activity android:name=".ui.LoginActivity"/>
         <activity
             android:name=".HomeActivity"
