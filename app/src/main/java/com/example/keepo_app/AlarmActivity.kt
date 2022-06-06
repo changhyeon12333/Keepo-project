@@ -7,6 +7,7 @@ import android.app.PendingIntent
 import android.app.TimePickerDialog.OnTimeSetListener
 import android.content.Intent
 import android.os.Bundle
+import android.os.Handler
 import android.util.Log
 import android.widget.Button
 import android.widget.TextView
@@ -37,6 +38,7 @@ class AlarmActivity : AppCompatActivity(), OnTimeSetListener {
 
         val actionBar: androidx.appcompat.app.ActionBar? = supportActionBar
         actionBar!!.hide()
+
     }
 
     /**
@@ -102,4 +104,9 @@ class AlarmActivity : AppCompatActivity(), OnTimeSetListener {
     companion object {
         const val TAG = "MAIN"
     }
+
+
+
+
+
 }
