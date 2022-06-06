@@ -6,6 +6,37 @@
     android:layout_height="match_parent"
     tools:context=".AlarmActivity">
 
+    <ImageView
+        android:id="@+id/backend_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/good"
+        />
+
+    <ImageView
+        android:id="@+id/forward_img"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="0dp"
+        android:src="@drawable/forward2" />
+
+    <ImageView
+        android:id="@+id/leftleg_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/leftleg"
+        />
+
+    <ImageView
+        android:id="@+id/rightleg_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/rightleg" />
+
     <TextView
         android:id="@+id/time_text"
         android:layout_width="wrap_content"
@@ -44,5 +75,21 @@
         android:layout_marginEnd="100dp"
         android:layout_marginBottom="100dp"
         android:text="off"></Button>
+
+    <TextView
+        android:id="@+id/posture_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="3dp"
+        android:fontFamily="@font/nanumsquare"
+        android:gravity="center"
+        android:text="착석해주세요"
+        android:textColor="@color/black"
+        android:textSize="27sp"></TextView>
 </RelativeLayout>
 
