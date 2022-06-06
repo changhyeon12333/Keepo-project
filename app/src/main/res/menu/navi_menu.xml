@@ -2,10 +2,13 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
         <item android:id="@+id/account"
+            android:fontFamily="@font/nanumsquare"
             android:title="account"/>
         <item android:id="@+id/alarm"
+            android:fontFamily="@font/nanumsquare"
             android:title="alarm"/>
         <item android:id="@+id/data"
+            android:fontFamily="@font/nanumsquare"
             android:title="info"/>
     </group>
 </menu>

@@ -34,6 +34,9 @@ class AlarmActivity : AppCompatActivity(), OnTimeSetListener {
         //알람 취소
         val alarm_cancel_btn = findViewById<Button>(R.id.alarm_cancel_btn)
         alarm_cancel_btn.setOnClickListener { cancelAlarm() }
+
+        val actionBar: androidx.appcompat.app.ActionBar? = supportActionBar
+        actionBar!!.hide()
     }
 
     /**
@@ -62,7 +65,7 @@ class AlarmActivity : AppCompatActivity(), OnTimeSetListener {
      */
     private fun updateTimeText(c: Calendar) {
         Log.d(AlarmActivity.Companion.TAG, "## updateTimeText ## ")
-        var timeText: String? = "알람시간: "
+        var timeText: String? = "스트레칭 시간: "
         timeText += DateFormat.getTimeInstance(DateFormat.SHORT).format(c.time)
         time_text!!.text = timeText
     }
@@ -93,7 +96,7 @@ class AlarmActivity : AppCompatActivity(), OnTimeSetListener {
         val intent = Intent(this, AlertReceiver::class.java)
         val pendingIntent = PendingIntent.getBroadcast(this, 1, intent, 0)
         alarmManager.cancel(pendingIntent)
-        time_text!!.text = "알람 취소"
+        time_text!!.text = "스트레칭 시간 재설정이 필요합니다"
     }
 
     companion object {

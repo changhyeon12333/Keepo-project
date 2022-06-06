@@ -5,22 +5,23 @@
       <map>
         <entry key="..\:/Users/ChangHyeon/AndroidStudioProjects/Keepo_app/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/ChangHyeon/AndroidStudioProjects/Keepo_app/app/src/main/res/layout/fragment_dashboard.xml" value="0.22826086956521738" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/MyApplication/Keepo-project/app/src/main/res/layout/activity_login.xml" value="0.25" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/MyApplication/Keepo-project/app/src/main/res/layout/activity_signin.xml" value="0.2484375" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/MyApplication/Keepo-project/app/src/main/res/layout/fragment_home.xml" value="0.2672239108409321" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/MyApplication/Keepo-project/app/src/main/res/layout/fragment_notifications.xml" value="0.2672239108409321" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/keepo/9incero/app/src/main/res/font/font.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/keepo/9incero/app/src/main/res/layout/account_infomation.xml" value="0.12107396149949341" />
         <entry key="..\:/Users/user/AndroidStudioProjects/keepo/9incero/app/src/main/res/layout/activity_alarm.xml" value="0.11550151975683891" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/keepo/9incero/app/src/main/res/layout/activity_alert_receiver.xml" value="0.24583333333333332" />
         <entry key="..\:/Users/user/AndroidStudioProjects/keepo/9incero/app/src/main/res/layout/activity_dashboard.xml" value="0.2" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/keepo/9incero/app/src/main/res/layout/activity_home.xml" value="0.1911231884057971" />
         <entry key="..\:/Users/user/AndroidStudioProjects/keepo/9incero/app/src/main/res/layout/activity_intro.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/keepo/9incero/app/src/main/res/layout/activity_login.xml" value="0.15534420289855072" />
         <entry key="..\:/Users/user/AndroidStudioProjects/keepo/9incero/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/user/AndroidStudioProjects/keepo/9incero/app/src/main/res/layout/activity_sub.xml" value="0.11854103343465046" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/keepo/9incero/app/src/main/res/layout/content_ddisease.xml" value="0.15534420289855072" />
         <entry key="..\:/Users/user/AndroidStudioProjects/keepo/9incero/app/src/main/res/layout/fragment_blank.xml" value="0.1546875" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/keepo/9incero/app/src/main/res/layout/fragment_dashboard.xml" value="0.2" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/keepo/9incero/app/src/main/res/layout/fragment_dashboard.xml" value="0.264" />
         <entry key="..\:/Users/user/AndroidStudioProjects/keepo/9incero/app/src/main/res/layout/fragment_dashboard1.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/keepo/9incero/app/src/main/res/layout/fragment_dashboard2.xml" value="0.264" />
         <entry key="..\:/Users/user/AndroidStudioProjects/keepo/9incero/app/src/main/res/layout/fragment_dashboard_b.xml" value="0.14628623188405798" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/keepo/9incero/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/keepo/9incero/app/src/main/res/layout/fragment_home.xml" value="0.2" />
         <entry key="..\:/Users/user/AndroidStudioProjects/keepo/9incero/app/src/main/res/layout/fragment_notifications.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/keepo/9incero/app/src/main/res/layout/intro_layout.xml" value="0.12107396149949341" />
         <entry key="..\:/Users/user/AndroidStudioProjects/keepo/9incero/app/src/main/res/layout/measureactivity.xml" value="0.1" />
