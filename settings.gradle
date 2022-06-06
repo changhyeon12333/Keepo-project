@@ -11,9 +11,9 @@ dependencyResolutionManagement {
         google()
         maven {url"https://jitpack.io"}
 
-
         mavenCentral()
     }
+
 }
 
 rootProject.name = "Keepo_app"

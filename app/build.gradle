@@ -4,6 +4,11 @@ plugins {
     id 'kotlin-android-extensions'
 
 }
+apply plugin: 'com.android.application'
+
+// Add this line
+apply plugin: 'com.google.gms.google-services'
+
 
 android {
     compileSdk 32
@@ -38,8 +43,9 @@ android {
 
 
 dependencies {
-
-
+    implementation platform('com.google.firebase:firebase-bom:30.1.0')
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation 'com.google.firebase:firebase-auth-ktx'
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.1'
     implementation 'com.google.android.material:material:1.6.0'
