@@ -13,6 +13,7 @@ import com.example.keepo_app.HomeActivity
 import com.example.keepo_app.MainActivity
 import com.example.keepo_app.R
 import com.example.keepo_app.databinding.FragmentHomeBinding
+import com.example.keepo_app.ui.LoginActivity
 
 class HomeFragment : Fragment() {
 
@@ -36,7 +37,7 @@ class HomeFragment : Fragment() {
         val loginButton = view.findViewById<Button>(R.id.button_disease)
         loginButton.setOnClickListener(object :View.OnClickListener {
             override fun onClick(v: View?) {
-                val intent = Intent(context, HomeActivity::class.java)
+                val intent = Intent(context,HomeActivity::class.java)
                 startActivity(intent)
                 // 다른 액티비티에서 전환할 때
                 // activity?.finish()
