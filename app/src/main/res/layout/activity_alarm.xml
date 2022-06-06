@@ -5,36 +5,40 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".AlarmActivity">
+
     <TextView
         android:id="@+id/time_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="3dp"
+        android:gravity="center"
+        android:text="alarm"
         android:textColor="@color/black"
-        android:text="time"
-        android:textSize="30sp"
-        >
-    </TextView>
+        android:textSize="30sp"></TextView>
 
     <Button
         android:id="@+id/time_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/time_text"
-        android:layout_centerHorizontal="true"
-        android:text="시간 지정"
-        >
-    </Button>
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="100dp"
+        android:text="on"></Button>
 
     <Button
         android:id="@+id/alarm_cancel_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/time_btn"
-        android:layout_centerHorizontal="true"
-        android:text="알람 취소"
-        >
-    </Button>
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="100dp"
+        android:text="off"></Button>
 </RelativeLayout>
 
